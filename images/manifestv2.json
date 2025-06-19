@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://nataliaratulovska.github.io/Vortrag/images/manifest-v2.json",
+  "@type": "sc:Manifest",
+  "label": "All images loaded in nataliaratulovska/Vortrag project",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "https://nataliaratulovska.github.io/Vortrag/images/sequence/normal",
+      "canvases": [
+        {
+          "@id": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas",
+          "@type": "sc:Canvas",
+          "label": "a1a849c7-8554-4e2a-8227-b8e5ee730072",
+          "height": 726,
+          "width": 503,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/annotation",
+              "motivation": "sc:painting",
+              "on": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas",
+              "resource": {
+                "@id": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 726,
+                "width": 503,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
