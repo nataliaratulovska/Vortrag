@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://nataliaratulovska.github.io/Vortrag/images/manifest-v3.json",
+  "type": "Manifest",
+  "label": { "de": ["Beispielmanifest mit Annotationen"] },
+  "items": [
+    {
+      "id": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas",
+      "type": "Canvas",
+      "width": 1000,
+      "height": 1500,
+      "items": [
+        {
+          "id": "https://nataliaratulovska.github.io/Vortrag/images/annotations/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dev.gdmrdigital.com/annotation/anno/1750362016621",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "\"...die Karotffel bringt Euch nur",
+                "format": "text/html"
+              },
+              "target": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas#xywh=18,506,322,34"
+            },
+            {
+              "id": "https://dev.gdmrdigital.com/annotation/anno/1750362042389",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "bei häufigem Saatgutwechsel",
+                "format": "text/html"
+              },
+              "target": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas#xywh=23,547,319,16"
+            },
+            {
+              "id": "https://dev.gdmrdigital.com/annotation/anno/1750362068861",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "reiche und sichere Erträge.",
+                "format": "text/html"
+              },
+              "target": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas#xywh=56,567,284,24"
+            },
+            {
+              "id": "https://dev.gdmrdigital.com/annotation/anno/1750362099080",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Dei richtigen Sorten wählt mit Euren Beratern!",
+                "format": "text/html"
+              },
+              "target": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas#xywh=21,589,471,31"
+            },
+            {
+              "id": "https://dev.gdmrdigital.com/annotation/anno/1750362116537",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "für beste Lieferung aus",
+                "format": "text/html"
+              },
+              "target": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas#xywh=23,626,222,23"
+            },
+            {
+              "id": "https://dev.gdmrdigital.com/annotation/anno/1750362145178",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "besonders geeigneten Herkunftsgebieten",
+                "format": "text/html"
+              },
+              "target": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas#xywh=... (hier fehlt leider dein letzter xywh-Wert)"
+            },
+            {
+              "id": "https://dev.gdmrdigital.com/annotation/anno/1750362159313",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "sorgt die Baywa\"",
+                "format": "text/html"
+              },
+              "target": "https://nataliaratulovska.github.io/Vortrag/images/a1a849c7-8554-4e2a-8227-b8e5ee730072/canvas#xywh=230,673,257,40"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
